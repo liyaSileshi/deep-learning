@@ -10,17 +10,18 @@ Gradient is a way of packing together all the partial derivaties of a multi-vari
 
 For example if you are given:
 
-$f(x,y) = x^2sin(y)$
+<img src="https://render.githubusercontent.com/render/math?math=f(x,y) = x^{2}sin(y)">
+
 
 ## Step 1: Find the partial derivatives with respect to both x and y
 
-Partial derivative w.r.t x → $df/dx = 2xsin(y)$
+Partial derivative w.r.t x → <img src="https://render.githubusercontent.com/render/math?math=df/dx = 2xsin(y)">
 
-Partial derivative w.r.t y → $df/dy = x^2cos(y)$
+Partial derivative w.r.t y → <img src="https://render.githubusercontent.com/render/math?math=df/dy = x^{2}cos(y)">
 
 ## Step 2: Once you have these two equations, put them into a vector.
 
-$∇ (nabla)$  → The symbol for Gradient
+**∇ (nabla)**  → The symbol for Gradient
 
 <img src="gradient_answer.png" height=200 width=auto>
 
@@ -46,7 +47,7 @@ The gradient points in the direction of steepest ascent. This mean the gradient 
 
 **Gradient Descent → Finding the minimum point of a graph.**
 
-For gradient ascent, we are trying to increase the value of $f$(height of the graph).
+For gradient ascent, we are trying to increase the value of **f**, where **f** is the height of the graph.
 
 So the gradient vector will point towards where the graph is increasing in height and getting steeper. 
 
@@ -77,9 +78,10 @@ Cost Function quantifies the error between predicted and expected values of each
 
 ### Calculating the cost function
 
-```bash
-𝚺 (estimated probability - predicted probability)^2
-```
+The formula for cost function is: 
+
+𝚺<img src="https://render.githubusercontent.com/render/math?math={(estimated probability - predicted probability)}^2">
+
 
 For Example: For a digit classifier (MNIST), we calculate the cost function by subtracting the estimated - predicted value for each digit output, squaring them for each digit, and summing all of the values together. 
 
