@@ -27,12 +27,16 @@ Partial derivative w.r.t y → <img src="https://render.githubusercontent.com/re
 
 The gradient of any function is equal to a vector with its partial derivatives. Hence Gradient could be called as a "full-derivative" since it captures all the partial derivative inside the function and puts it inside a vector representation.
 
+### Exercise 1
 ```bash
-Exercise 1: given an equation, compute the gradient of the function
+Compute the gradient of the following math function.
 ```
+<img src="https://render.githubusercontent.com/render/math?math=f(x,y) = x^{4}cos(y)-4">
 
+
+### Exercise 2
 ```bash
-Exercise 2: Write a function, that given an equation, compute the gradient of the function.
+Write a python function, that takes a math equation (like the one in exercise 1), as an argument and returns the gradient of the equation.
 ```
 
 # Gradient in graphs
