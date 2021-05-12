@@ -40,11 +40,11 @@ The gradient of any function is equal to a vector with its partial derivatives. 
 
 ### Exercise 2
 
-* Write a python function, that takes a math equation (like the one in exercise 1), as an argument and returns the gradient of the equation.
+* Write a python function, that takes a math equation (like the one in exercise 1), as an argument and returns the gradient of the equation inside an array.
 
-**Example Input:**
+**Example Input:** <img src="https://render.githubusercontent.com/render/math?math=x^{2}sin(y)">
 
-**Example Output:**
+**Example Output:**  [<img src="https://render.githubusercontent.com/render/math?math=2xsin(y)">, <img src="https://render.githubusercontent.com/render/math?math=x^{2}cos(y)">]
 
 
 # Gradient in graphs
