@@ -27,7 +27,7 @@ Gradient is a way of packing together all the partial derivaties of a multi-vari
 
 For example if you are given a math function:
 
-<img src="https://render.githubusercontent.com/render/math?math=f(x,y) = x^{2}sin(y)">
+<img src="https://render.githubusercontent.com/render/math?math=f(x,y) = x^{2}sin(y)" color='yellow'>
 
 
 ## Step 1: Find the partial derivatives with respect to both x and y
@@ -143,6 +143,14 @@ This sum is small when the network confidently classifies the image correctly. A
 
 Cost function calculates how bad the weights and biases are on the current Neural Networks so that they could be improved upon.
 
+
+**For example if you are the actual values and predicted values of a model in two different array:**
+
+* actual_values = [0, 5, 10, 15]
+
+* predicted_values = [0, 2, 4, 6]
+
+**cost function**  = (0-0)^2 + (5-2)^2 + (10-4)^2 + (15-6)^2 = 126
 
 ### Exercise 3
 
