@@ -103,11 +103,17 @@ Cost function calculates how bad the weights and biases are on the current Neura
 
 ### Exercise 3
 
-* Given the actual and predicted values of a digit classifier in 2 arrays, write a function to calculate the cost function.
+* Given the actual and predicted values of a digit classifier in 2 different arrays, write a python function to calculate the cost function and return the value.
 
-**Example Input**
+**Example Input** 
+
+actual_values = [0, 5, 10, 15]
+
+predicted_values = [0, 2, 4, 6]
 
 **Example Output**
+
+return value = **126**
 
 # Gradient Descent
 
@@ -136,7 +142,9 @@ So taking the negative of that gradient will give the direction to decrease the 
 Gradient descent → repeatedly changing the weights and bias of an input function by some multiple negatives of a gradient.
 
 It's a way to converge to a local minimum of a cost function.
+
  <img src="complex_local_minima.png" height=300>
+ 
 # Resources
 
 [Gradient descent video](https://www.youtube.com/watch?v=IHZwWFHWa-w&ab_channel=3Blue1Brown)
