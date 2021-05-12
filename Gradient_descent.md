@@ -42,7 +42,7 @@ Partial derivative w.r.t y → <img src="https://render.githubusercontent.com/re
 
 **∇ (nabla)**  → The symbol for Gradient
 
-<img src="gradient_answer.png" height=200 width=auto>
+<img src="assets/gradient_answer.png" height=200 width=auto>
 
 The gradient of any function is equal to a vector with its partial derivatives. Hence Gradient could be called as a "full-derivative" since it captures all the partial derivative inside the function and puts it inside a vector representation.
 
@@ -95,7 +95,7 @@ If cost function is graphed, the gradient descent is going towards the direction
 
 What's the downhill direction?
 
-<img src="gradient_graph_steps.png" height=300 width=auto>
+<img src="assets/gradient_graph_steps.png" height=300 width=auto>
 
 Calculating the Gradient Descent helps us find the lower/minimum cost function. To find where the cost function will be close to zero, because when the cost function is a small value, it means our model is correctly predicting the value that we want. 
 
@@ -111,7 +111,7 @@ Gradient descent → repeatedly changing the weights and bias of an input functi
 
 It's a way to converge to a local minimum of a cost function.
 
- <img src="complex_local_minima.png" height=300>
+ <img src="assets/complex_local_minima.png" height=300>
  
 # Gradient Descent in a Neural Network
 
@@ -137,7 +137,7 @@ The formula for cost function is:
 
 For Example: For a digit classifier (MNIST), we calculate the cost function by subtracting the estimated - predicted value for each digit output, squaring them for each digit, and summing all of the values together. 
 
-<img src="cost_function_calculation.png" height=300>
+<img src="assets/cost_function_calculation.png" height=300>
 
 This sum is small when the network confidently classifies the image correctly. And large when it doesn't. 
 
