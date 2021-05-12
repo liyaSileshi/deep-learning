@@ -33,10 +33,10 @@ The gradient of any function is equal to a vector with its partial derivatives. 
 
 <img src="https://render.githubusercontent.com/render/math?math=f(x,y) = x^{4}cos(y)-4">
 
-**Example Input:**
+**Example Input:** <img src="https://render.githubusercontent.com/render/math?math=f(x,y) = x^{2}sin(y)">
 
 **Example Output:**
-
+<img src="https://render.githubusercontent.com/render/math?math=df/dx = 2xsin(y)"> and <img src="https://render.githubusercontent.com/render/math?math=df/dy = x^{2}cos(y)">
 
 ### Exercise 2
 
