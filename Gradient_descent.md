@@ -1,4 +1,19 @@
-# Gradient Descent
+# Gradient Descent 🗻📉
+
+# Why you should know this 
+
+Gradient descent is by far the most popular optimization strategy used in machine learning and deep learning at the moment. 
+
+It is used when training data models, can be combined with every algorithm and is easy to understand and implement. 
+
+Everyone working with machine learning should understand its concept.
+
+
+# Prerequisites
+* QL 1.1 Quantitative Reasoning
+* DS 1.1 Data Analysis & Visualization
+* DS 2.1 Machine Learning
+
 
 # What is a gradient?
 
@@ -143,8 +158,10 @@ It's a way to converge to a local minimum of a cost function.
  
 # Resources
 
+[Gradient Descent article](https://builtin.com/data-science/gradient-descent)
+
 [Gradient descent video](https://www.youtube.com/watch?v=IHZwWFHWa-w&ab_channel=3Blue1Brown)
 
 [Khan academy Gradient and directional derivatives](https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/gradient-and-directional-derivatives/v/gradient)
 
-[https://towardsdatascience.com/coding-deep-learning-for-beginners-linear-regression-part-2-cost-function-49545303d29f](https://towardsdatascience.com/coding-deep-learning-for-beginners-linear-regression-part-2-cost-function-49545303d29f) → cost function
+[Cost function article](https://towardsdatascience.com/coding-deep-learning-for-beginners-linear-regression-part-2-cost-function-49545303d29f)
