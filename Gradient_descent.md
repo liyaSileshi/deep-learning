@@ -23,12 +23,14 @@ Gradient is a way of packing together all the partial derivaties of a multi-vari
 
 # How do we compute gradient?
 
-For example if you are given:
+For example if you are given a math function:
 
 <img src="https://render.githubusercontent.com/render/math?math=f(x,y) = x^{2}sin(y)">
 
 
 ## Step 1: Find the partial derivatives with respect to both x and y
+
+[How to calculate the partial derivatives of a funciton](https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/partial-derivatives/v/partial-derivatives-introduction)
 
 Partial derivative w.r.t x → <img src="https://render.githubusercontent.com/render/math?math=df/dx = 2xsin(y)">
 
@@ -74,9 +76,7 @@ The gradient points in the direction of steepest ascent. This mean the gradient 
 
 **Gradient Descent → Finding the minimum point of a graph.**
 
-For gradient ascent, we are trying to increase the value of **f**, where **f** is the height of the graph.
-
-So the gradient vector will point towards where the graph is increasing in height and getting steeper. 
+For gradient ascent, we are trying to increase the value of **f**, where **f** is the height of the graph. So the gradient vector will point towards where the graph is increasing in height and getting steeper. 
 
 The gradient is zero when if going in any direction from the gradient vector, the height doesn't increase or decrease in value, but rather remains roughly constant. This means for 2D fields, the graph has reached a flat/plateau surface. 
 
@@ -85,6 +85,32 @@ The gradient is zero when if going in any direction from the gradient vector, th
 
 Watch this [video](https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/gradient-and-directional-derivatives/v/gradient-and-contour-maps) that explains more about this topic. 
 
+# Gradient Descent
+
+Gradient Descent is a method used to minimize the cost function. 
+
+If cost function is graphed, the gradient descent is going towards the direction of where the steepest slope is.
+
+What's the downhill direction?
+
+<img src="gradient_graph_steps.png" height=300 width=auto>
+
+Calculating the Gradient Descent helps us find the lower/minimum cost function. To find where the cost function will be close to zero, because when the cost function is a small value, it means our model is correctly predicting the value that we want. 
+
+Calculating the Gradient of a function gives us the direction of the steepest ascent. So taking the negative of that gradient will give the direction to decrease the function most quickly.
+
+### The overall algorithm for minimizing the cost function
+
+1. Compute the gradient direction
+2. Take a small step downhill (take the negative of the gradient)
+3. Repeat
+
+Gradient descent → repeatedly changing the weights and bias of an input function by some multiple negatives of a gradient.
+
+It's a way to converge to a local minimum of a cost function.
+
+ <img src="complex_local_minima.png" height=300>
+ 
 # Gradient Descent in a Neural Network
 
 Gradient Descent works by finding the minima of a certain function. 
@@ -130,31 +156,7 @@ predicted_values = [0, 2, 4, 6]
 
 return value = **126**
 
-# Gradient Descent
 
-Gradient Descent is a method used to minimize the cost function. 
-
-If cost function is graphed, the gradient descent is going towards the direction of where the steepest slope is.
-
-What's the downhill direction?
-
-<img src="gradient_graph_steps.png" height=300 width=auto>
-
-Calculating the Gradient Descent helps us find the lower/minimum cost function. To find where the cost function will be close to zero, because when the cost function is a small value, it means our model is correctly predicting the value that we want. 
-
-Calculating the Gradient of a function gives us the direction of the steepest ascent. So taking the negative of that gradient will give the direction to decrease the function most quickly.
-
-### The overall algorithm for minimizing the cost function
-
-1. Compute the gradient direction
-2. Take a small step downhill (take the negative of the gradient)
-3. Repeat
-
-Gradient descent → repeatedly changing the weights and bias of an input function by some multiple negatives of a gradient.
-
-It's a way to converge to a local minimum of a cost function.
-
- <img src="complex_local_minima.png" height=300>
  
 # Resources
 
