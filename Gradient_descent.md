@@ -117,7 +117,7 @@ return value = **126**
 
 # Gradient Descent
 
-Is used to minimize the cost function. 
+Gradient Descent is a method used to minimize the cost function. 
 
 If cost function is graphed, the gradient descent is going towards the direction of where the steepest slope is.
 
@@ -125,13 +125,9 @@ What's the downhill direction?
 
 <img src="gradient_graph_steps.png" height=300 width=auto>
 
-To find where the cost function will be close to zero, because when the cost function is a small value, it means our model is correctly predicting the value that we want. 
+Calculating the Gradient Descent helps us find the lower/minimum cost function. To find where the cost function will be close to zero, because when the cost function is a small value, it means our model is correctly predicting the value that we want. 
 
-Helps us find the lower/minimum cost function.
-
-Gradient of a function gives us the direction of the steepest ascent.
-
-So taking the negative of that gradient will give the direction to decrease the function most quickly.
+Calculating the Gradient of a function gives us the direction of the steepest ascent. So taking the negative of that gradient will give the direction to decrease the function most quickly.
 
 ### The overall algorithm for minimizing the cost function
 
