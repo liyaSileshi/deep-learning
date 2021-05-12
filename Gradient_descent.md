@@ -23,6 +23,8 @@ Gradient is a way of packing together all the partial derivaties of a multi-vari
 
 # How do we compute gradient?
 
+[Video on how to calculate gradient](https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/gradient-and-directional-derivatives/v/gradient)
+
 For example if you are given a math function:
 
 <img src="https://render.githubusercontent.com/render/math?math=f(x,y) = x^{2}sin(y)">
