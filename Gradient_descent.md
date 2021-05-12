@@ -33,10 +33,18 @@ The gradient of any function is equal to a vector with its partial derivatives. 
 
 <img src="https://render.githubusercontent.com/render/math?math=f(x,y) = x^{4}cos(y)-4">
 
+**Example Input:**
+
+**Example Output:**
+
 
 ### Exercise 2
 
 * Write a python function, that takes a math equation (like the one in exercise 1), as an argument and returns the gradient of the equation.
+
+**Example Input:**
+
+**Example Output:**
 
 
 # Gradient in graphs
@@ -57,7 +65,6 @@ So the gradient vector will point towards where the graph is increasing in heigh
 
 The gradient is zero when if going in any direction from the gradient vector, the height doesn't increase or decrease in value, but rather remains roughly constant. This means for 2D fields, the graph has reached a flat/plateau surface. 
 
-[add gradient in graph equation]
 
 # Gradient and contour maps
 
@@ -74,8 +81,6 @@ minima ⇒ minimum height/ "valleys" of the function
 ### What is Cost Function
 
 Cost Function quantifies the error between predicted and expected values of each output of a model and presents it in the form of a single real number. 
-
-[add cost calculation image]
 
 - **Input of a cost function is all of the weights and biases of the Neural Network.**
 - **The output is 1 number that describes how bad the weights and biases are so that they could be improved upon.**
@@ -95,15 +100,20 @@ This sum is small when the network confidently classifies the image correctly. A
 
 Cost function calculates how bad the weights and biases are on the current Neural Networks so that they could be improved upon.
 
-```bash
-Exercise : Given the actual and predicted values of a digit classifier in 2 arrays, write a function to calculate the cost function.
-```
+
+### Exercise 3
+
+* Given the actual and predicted values of a digit classifier in 2 arrays, write a function to calculate the cost function.
+
+**Example Input**
+
+**Example Output**
 
 # Gradient Descent
 
 Is used to minimize the cost function. 
 
-If cost function is graphed, the gradient descent is going towards the direction of where the steepest slope is. [Add visuals]
+If cost function is graphed, the gradient descent is going towards the direction of where the steepest slope is.
 
 What's the downhill direction?
 
