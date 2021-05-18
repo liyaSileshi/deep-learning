@@ -32,7 +32,7 @@ For example if you are given a math function:
 
 ## Step 1: Find the partial derivatives with respect to both x and y
 
-[How to calculate the partial derivatives of a funciton](https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/partial-derivatives/v/partial-derivatives-introduction)
+[How to calculate the partial derivatives of a function](https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/partial-derivatives/v/partial-derivatives-introduction)
 
 Partial derivative w.r.t x → <img src="https://render.githubusercontent.com/render/math?math=df/dx = 2xsin(y)">
 
