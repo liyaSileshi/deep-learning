@@ -33,7 +33,7 @@ The 3 steps of back propagation is as follows:
 2. Calculate the gradient of C(w) with respect to (w.r.t) all the weights, **w**, and biases, **b,** in your neural network (NN)
 3. Adjust the **w** and **b** proportional to the size of their gradients.
 
-Here is an article([https://towardsdatascience.com/the-maths-behind-back-propagation-cf6714736abf](https://towardsdatascience.com/the-maths-behind-back-propagation-cf6714736abf)) that explains on how to calculate weighted sum and activation layer of a simple 1-1-1 network. 
+Here is an [article](https://towardsdatascience.com/the-maths-behind-back-propagation-cf6714736abf) that explains on how to calculate weighted sum and activation layer of a simple 1-1-1 network. 
 
 ## Exercise 1:
 
@@ -41,8 +41,8 @@ Here is an article([https://towardsdatascience.com/the-maths-behind-back-propaga
 
 # Resources
 
-[https://towardsdatascience.com/how-does-back-propagation-in-artificial-neural-networks-work-c7cad873ea7](https://towardsdatascience.com/how-does-back-propagation-in-artificial-neural-networks-work-c7cad873ea7)
+[How does back propagation work](https://towardsdatascience.com/how-does-back-propagation-in-artificial-neural-networks-work-c7cad873ea7)
 
-[https://towardsdatascience.com/the-maths-behind-back-propagation-cf6714736abf](https://towardsdatascience.com/the-maths-behind-back-propagation-cf6714736abf)
+[The math behind back propagation](https://towardsdatascience.com/the-maths-behind-back-propagation-cf6714736abf)
 
-[https://towardsdatascience.com/backpropagation-for-people-who-are-afraid-of-math-936a2cbebed7](https://towardsdatascience.com/backpropagation-for-people-who-are-afraid-of-math-936a2cbebed7)
+[Back Propagation with math](https://towardsdatascience.com/backpropagation-for-people-who-are-afraid-of-math-936a2cbebed7)
