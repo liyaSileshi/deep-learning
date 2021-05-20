@@ -72,7 +72,7 @@ The gradient of any function is equal to a vector with its partial derivatives. 
 
 Watch this [video](https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/gradient-and-directional-derivatives/v/gradient-and-graphs) that explains about gradient in graphs.
 
-Gradient shows you which direction you should go inside the graph to increase your goal. Your goal being achieving the highest height on the graph.
+Gradient shows you which direction you should go inside the graph to approach your goal. Your goal being achieving the highest height on the graph.
 
 The gradient points in the direction of steepest ascent. This mean the gradient will point to where you should go to achieve the maximum height in the graph.
 
@@ -132,10 +132,12 @@ Cost Function quantifies the error between predicted and expected values of each
 
 ### Calculating the cost function
 
-The formula for cost function is: 
+
+The formula of cost function for MNIST digit classifier is: 
 
 𝚺<img src="https://render.githubusercontent.com/render/math?math={(estimated probability - predicted probability)}^2">
 
+The cost function is not always the sum of the squares of (estimated probabilities minus predicted probabilities). However, in many cases the cost function is a mean squared error, of which the probabilities for MNIST digits are a special case. The mean squared error cost function is the sum of the squares of the errors which is often the sums of the squares of the components of a (predicted output vector - true output vector).
 
 For Example: For a digit classifier (MNIST), we calculate the cost function by subtracting the estimated - predicted value for each digit output, squaring them for each digit, and summing all of the values together. 
 
