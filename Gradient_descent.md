@@ -181,3 +181,5 @@ return value = **126**
 [Khan academy Gradient and directional derivatives](https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/gradient-and-directional-derivatives/v/gradient)
 
 [Cost function article](https://towardsdatascience.com/coding-deep-learning-for-beginners-linear-regression-part-2-cost-function-49545303d29f)
+
+[Partial Derivative Calculator](https://www.symbolab.com/solver/partial-derivative-calculator/)
