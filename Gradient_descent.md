@@ -59,11 +59,13 @@ The gradient of any function is equal to a vector with its partial derivatives. 
 
 ### Exercise 2
 
-* Write a python function, that takes a math equation (like the one in exercise 1), as an argument and returns the gradient of the equation inside an array.
+* Write a python function, that computes the gradient of a 2nd degree polynomial in x and y, specifided by the form A + B*x + C*y + D*x*y + Ex<sup>2</sup> + Fy<sup>2</sup>,  where the inputs are the numerical values of the coefficients [A, B, C, D, E, F].
 
-**Example Input:** <img src="https://render.githubusercontent.com/render/math?math=x^{2}sin(y)">
+**Example Input:** A=2,  B=3, C=4, D=5, E=6, F=7
 
-**Example Output:**  [<img src="https://render.githubusercontent.com/render/math?math=2xsin(y)">, <img src="https://render.githubusercontent.com/render/math?math=x^{2}cos(y)">]
+2 + 3*x + 4*y + 5*x*y + 6x<sup>2</sup> + 7y<sup>2</sup>
+
+**Example Output:**  [12x+5y+3, 5x+14y+4]
 
 
 # Gradient in graphs
