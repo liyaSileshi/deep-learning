@@ -46,3 +46,7 @@ Here is an [article](https://towardsdatascience.com/the-maths-behind-back-propag
 [The math behind back propagation](https://towardsdatascience.com/the-maths-behind-back-propagation-cf6714736abf)
 
 [Back Propagation with math](https://towardsdatascience.com/backpropagation-for-people-who-are-afraid-of-math-936a2cbebed7)
+
+[Back Propagation video pt.1](https://www.youtube.com/watch?v=Ilg3gGewQ5U)
+
+[Back Propagation video pt.2](https://www.youtube.com/watch?v=tIeHLnjs5U8)
