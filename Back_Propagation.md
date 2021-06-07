@@ -17,6 +17,8 @@
 
 Back-propagation is just a way of propagating the total loss back into the neural network to know how much of the loss every node is responsible for, and subsequently updating the weights in such a way that minimizes the loss by giving the nodes with higher error rates lower weights and vice versa.
 
+In short, Back Propagation is an algorithm to determine how a single training example would like to nudge the weights and biases. 
+
 When training a network, we repeat the following steps (for *n* epoches):
 
 1. Perform forward pass.
@@ -34,6 +36,12 @@ The 3 steps of back propagation is as follows:
 3. Adjust the **w** and **b** proportional to the size of their gradients.
 
 Here is an [article](https://towardsdatascience.com/the-maths-behind-back-propagation-cf6714736abf) that explains on how to calculate weighted sum and activation layer of a simple 1-1-1 network. 
+
+
+Watch this [video lesson](https://www.youtube.com/watch?v=Ilg3gGewQ5U) by 3Blue1Brown that explains what backpropagation really is doing.
+
+# Exercises
+Before starting on the exercies, watch this [video lesson](https://www.youtube.com/watch?v=tIeHLnjs5U8), to understand the calculations behind weighted sum, activation layer and cost function in Back Propagation. The lesson is a continuation from the previous video linked so make sure to watch that one as well. 📼📝
 
 ## Exercise 1:
 
