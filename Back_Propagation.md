@@ -55,7 +55,7 @@ Focusing on the last 2 neurons,
 
 For the last neuron, you are given the weight and bias. You are also given the activation layer of the previous neuron.
 
-## Exercise :
+## Exercise 1:
 Calculate the weighted sum, z<sup>(L)</sup>,  based on the given variables.
 
 w<sup>(L)</sup> = 0.5
