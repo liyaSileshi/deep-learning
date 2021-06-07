@@ -42,10 +42,51 @@ Watch this [video lesson](https://www.youtube.com/watch?v=Ilg3gGewQ5U) by 3Blue1
 
 # Exercises
 Before starting on the exercies, watch this [video lesson](https://www.youtube.com/watch?v=tIeHLnjs5U8), to understand the calculations behind weighted sum, activation layer and cost function in Back Propagation. The lesson is a continuation from the previous video linked so make sure to watch that one as well. 📼📝
+#
 
-## Exercise 1:
+You are given an extremely simple network, one where each layer has a single neuron in it.
+
+<img src="assets/simple_network.png" alt='simple network' height=300 width=400>
+
+Focusing on the last 2 neurons, 
+
+<img src="assets/last_2_neurons.png" alt='last 2 neurons' height=300 width=400>
+
+
+For the last neuron, you are given the weight and bias. You are also given the activation layer of the previous neuron.
+
+## Exercise :
+Calculate the weighted sum, z<sup>(L)</sup>,  based on the given variables.
+
+w<sup>(L)</sup> = 0.5
+
+b<sup>(L)</sup> = 1
+
+a<sup>(L-1)</sup> = 0.25
+
+<img src="assets/weighted_sum_formula.png" alt='weighted sum formula' height=100 width=auto>
+
 
 ## Exercise 2:
+Write a python function to calculate the activation layer, a<sup>(L)</sup>, of a neuron. Your function should take the weighted sum z<sup>(L)</sup> as an input. For the activation function part, use the sigmoid activation function.
+
+<img src="assets/activation_layer_formula.png" alt='activation layer formula' height=100 width=auto>
+
+Here is the formula for sigmoid function:
+
+<img src="assets/sigmoid_function_formula.png" alt='sigmoid function formula' height=100 width=auto>
+
+## Exercise 3:
+Use the python function that you wrote on Exercise 2 to calculate the activation layer of the last neuron. 
+
+You will use the calculated weighted sum, z<sup>(L)</sup>, from Exercise 1 as an input here.
+
+## Exercise 4:
+Calculate the cost function of the last neuron based on the result of the activation layer from Exercise 3.
+
+The expected output **(y)** is 1.
+
+<img src="assets/cost_function_formula.png" alt='cost function formula' height=100 width=auto>
 
 # Resources
 
